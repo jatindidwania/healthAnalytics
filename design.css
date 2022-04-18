@@ -1,0 +1,65 @@
+		body{
+			font-family: Arial, "Helvetica Arial", serif;
+		}
+		a:link {
+  			color: green;
+		}
+		a:visited {
+  			color: green;
+		}
+		a:hover {
+  			color: red;
+		}
+		a:active {
+  			color: yellow;
+		}
+
+		@media(min-width: 320px){
+			.navbar-brand{
+				font-size: 2em;
+			}
+			.nav-link{
+				font-size: 1.2em;
+			}
+
+
+		}
+
+		.navigator{
+			background-image: url("images/background-image.jpg");
+			background-size: cover;
+		}
+		.center{
+			text-align: center;
+			width: 100%;
+		}
+.form-label
+{
+	float: left
+}
+
+label 
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span
+{
+	display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}
+
+.form-control
+{
+	width: 100%
+}
+
+.footer_para
+{
+	font-weight: bolder;
+	font-size: 28px;
+}
+
